@@ -6,7 +6,11 @@ window.addEventListener("load", () => {
 
   setInterval(() => {
     const isAdPlaying = document.body.innerText.includes("Playing Ad");
-
+    document
+      .querySelectorAll("div")
+      .forEach(
+        (el) => el.textContent.trim() === "Advertisement" && el.remove()
+      );
     if (isAdPlaying !== adActive) {
       adActive = isAdPlaying;
 
