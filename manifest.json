@@ -2,14 +2,13 @@
   "manifest_version": 3,
   "name": "Poki Ad Blocker",
   "version": "1.0.0",
-  "author": "Brainless Dip",
  "icons": {
   "16": "icon.png",
   "32": "icon.png",
   "48": "icon.png",
   "128": "icon.png"
 },
-  "description": "Block ads and automatically skip video ads on poki.com — enjoy uninterrupted gameplay and still earn rewards!",
+  "description": "Enjoy uninterrupted gameplay on poki.com by blocking ads and automatically skipping video ads—while still receiving in-game rewards!",
   "permissions": ["scripting"],
   "host_permissions": ["https://poki.com/*"],
   "content_scripts": [
