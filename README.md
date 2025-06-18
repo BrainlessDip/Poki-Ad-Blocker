@@ -4,7 +4,7 @@ Enjoy uninterrupted gameplay on poki.com by blocking ads and automatically skipp
 
 ## Features
 
-- Skips video ads automatically for smooth gaming with rrewards.
+- Skips video ads automatically for smooth gaming with rewards.
 - Lightweight and simple to use
 - Does not collect any user data
 

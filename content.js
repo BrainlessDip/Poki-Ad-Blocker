@@ -1,7 +1,6 @@
 window.addEventListener("load", () => {
   console.log("[Poki Ad Blocker] Script loaded and monitoring ads...");
   console.log("Poki Ad Blocker @ Brainless Dip");
-  const elements = document.querySelectorAll("div");
 
   let adActive = false;
 
@@ -17,12 +16,14 @@ window.addEventListener("load", () => {
       if (adContainer) {
         adContainer.style.visibility = "hidden";
       }
-       for (const el of elements) {
-    if (el.textContent.trim() === "We’ll be back after this short break") {
-      el.textContent = "Poki Ad Blocker @ Brainless Dip";
-      break;
-    }
-  }
+
+      const elements = document.querySelectorAll("div");
+      for (const el of elements) {
+        if (el.textContent.trim() === "We’ll be back after this short break") {
+          el.textContent = "Poki Ad Blocker @ Brainless Dip";
+          break;
+        }
+      }
       mediaElements.forEach((media) => {
         media.muted = adActive;
 
